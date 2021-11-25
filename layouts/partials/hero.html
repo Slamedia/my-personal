@@ -11,9 +11,9 @@
 		</h1>
 	{{ if .IsHome }}
 		<p>{{ .Site.Params.Hero.desc }}</p>
-		<div class="post__meta post__meta--author">
-			<img class="post__author-thumb lazyload" data-src="{{ .Site.Author.avatar | absURL}}" alt="{{ .Site.Author.name }}" src="/img/placeholder.svg"> 
-			<a href="/about" class="feed__author invert">{{ .Site.Author.name}}</a>
+		<div class="button-hero">
+			<button class="belajar"><a href="">Mulai Belajar</a></button>
+			<button class="referensi"><a href="">Cari Referensi</a></button>
 		</div>
 	{{ end }}
 		</div>
